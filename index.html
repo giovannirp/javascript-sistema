@@ -9,14 +9,42 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     </head>
     <body>
+        <nav>
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="index.html" class="brand-logo">Logo</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/cadastro/cadastro.html">Cadastro</a></li>
+                        <li><a href="collapsible.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="container">
-            <!-- Page Content goes here -->
-            <h1>Bem vindo</h1>
+            <h4>Lista de clientes</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Excluir</th>
+                    </tr>
+                </thead>
+
+                <tbody data-conteudo-tabela>
+                </tbody>
+            </table>
 
         </div>
 
 
         <!-- Compiled and minified JavaScript -->
+        <script src="api/services.js"></script>
+        <script src="ultis/listagem-cliente.js"></script>
+
+
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
