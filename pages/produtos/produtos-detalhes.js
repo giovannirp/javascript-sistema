@@ -11,5 +11,6 @@ detalheProdutos(id).then(dados => {
     titulo.innerHTML = dados.titulo;
     mensagemProduto.innerHTML = dados.mensagemDetalhes;
     tagProduto.innerHTML = dados.tagCurso;
+    divProdutoImg.src = dados.imagePath;
 })
 
