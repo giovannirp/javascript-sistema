@@ -7,6 +7,10 @@
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link href="../../css/styles.css" rel="stylesheet" />
+
     </head>
     <body>
         <nav>
@@ -23,38 +27,15 @@
             </div>
         </nav>
         <div class="container">
-            <h4>Cadastro de clientes</h4>
-            <div class="row">
-                <form data-form-clientes class="col s12">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="nome" data-nome type="text"
-                                class="validate">
-                            <label for="nome">NOME</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <input id="cpf" data-cpf type="text"
-                                class="validate">
-                            <label for="cpf">CPF</label>
-                        </div>
-                        <div class="center">
-                            <button type="submit" class="waves-effect
-                                waves-light
-                                btn">Cadastrar</button>
-                        </div>
-
-                    </div>
-
-                </form>
+            <h4>Lista de Produtos</h4>
+            <div id="produto">
             </div>
-
-
         </div>
-
 
         <!-- Compiled and minified JavaScript -->
         <script src="../../api/services.js"></script>
-        <script src="../cadastro/cadastro-clientes.js"></script>
+        <script src="../produtos/produtos.js"></script>
+
 
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

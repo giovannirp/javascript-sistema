@@ -3,8 +3,6 @@ const removeCliente = id => {
         deletaCliente(id);
     }
 }
-
-
 const corpoTabela = document.querySelector("[data-conteudo-tabela]");
 const exibeCliente = (id, nome, cpf) => {
     const linha = document.createElement('tr');
@@ -13,7 +11,7 @@ const exibeCliente = (id, nome, cpf) => {
         <td>${id}</td>
         <td>${nome}</td>
         <td>${cpf}</td>
-        <td><button class="btn btn-danger red" onclick="removeCliente(${id})">Exluir</button></td>
+        <td><button class="btn btn-danger red" onclick="removeCliente(${id})">Excluir</button></td>
     `;
     linha.innerHTML = conteudoLinha;
     return linha;

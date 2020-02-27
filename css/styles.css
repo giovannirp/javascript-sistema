@@ -1,0 +1,18 @@
+#produto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dd {
+    width: 31%;
+    margin-left: 10px;
+}
+
+.card {
+    height: 261px !important;
+}
+
+.txt-red {
+    color: red;
+    font-weight: bold;
+}

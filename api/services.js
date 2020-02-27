@@ -31,3 +31,33 @@ const deletaCliente = id => {
         method: 'DELETE'
     })
 }
+
+const listarSobre = () => {
+    return fetch("http://localhost:3000/sobre")
+        .then(res => {
+            return res.json();
+        })
+        .then(json => {
+            return json;
+        })
+}
+
+const listaProdutos = () => {
+    return fetch("http://localhost:3000/cursos")
+        .then(res => {
+            return res.json();
+        })
+        .then(json => {
+            return json;
+        })
+}
+
+const detalheProdutos = id => {
+    return fetch(`http://localhost:3000/cursos/${id}`,
+        {
+            method: 'GET'
+        })
+        .then(resposta => {
+            return resposta.json();
+        })
+}
