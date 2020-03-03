@@ -6,7 +6,7 @@ const exibeSobre = (id, titulo, imagePath, mensagem) => {
         <div><img src="${imagePath}" /></div>
         <div><strong>${titulo}</strong></div>
         <div><p>${mensagem}</p></div>
-    `
+    `;
     divLinha.innerHTML = conteudoSobre;
     return divLinha;
 }

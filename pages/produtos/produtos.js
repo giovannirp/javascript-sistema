@@ -12,6 +12,7 @@ const exibeProdutos = (id, titulo, tagCurso, imagePath, mensagem) => {
             <a href="produtos-detalhes.html?id=${id}" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
+            <strong>${tagCurso}</strong>
             <p>${mensagem}</p>
             </div>
         </div>
