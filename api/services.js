@@ -42,6 +42,16 @@ const listarSobre = () => {
         })
 }
 
+const listarInformcao = () => {
+    return fetch("http://localhost:3000/informacao")
+        .then(res => {
+            return res.json();
+        })
+        .then(json => {
+            return json;
+        })
+}
+
 const listaFaq = () => {
     return fetch("http://localhost:3000/faq")
         .then(res => {
