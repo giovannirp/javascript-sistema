@@ -7,7 +7,7 @@ const exibeProdutos = (id, titulo, tagCurso, imagePath, mensagem) => {
     const conteudoProduto = `
         <div class="card">
             <div class="card-image">
-            <img src="${imagePath}" />
+            <img src="${imagePath}" height="140" />
             <span class="card-title">${titulo}</span>
             <a href="produtos-detalhes.html?id=${id}" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
             </div>

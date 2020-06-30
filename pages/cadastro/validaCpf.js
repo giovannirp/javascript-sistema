@@ -55,7 +55,6 @@ function verificaSegundoDigito(cpf) {
     )
 }
 
-
 function validaCPF(cpf) {
     return (
         verificaPrimeiroDigito(cpf) &&

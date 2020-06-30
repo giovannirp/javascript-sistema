@@ -7,6 +7,8 @@
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="../../css/styles.css" rel="stylesheet" />
+
     </head>
     <body>
         <nav>
@@ -24,19 +26,22 @@
         </nav>
         <div class="container">
             <h4>Lista de clientes</h4>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Codigo</th>
-                        <th>Nome</th>
-                        <th>CPF</th>
-                        <th>Excluir</th>
-                    </tr>
-                </thead>
+            <div class="scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Nome</th>
+                            <th>CPF</th>
+                            <th>Excluir</th>
+                        </tr>
+                    </thead>
 
-                <tbody data-conteudo-tabela>
-                </tbody>
-            </table>
+                    <tbody data-conteudo-tabela>
+                    </tbody>
+                </table>
+            </div>
+
 
         </div>
 

@@ -21,7 +21,7 @@ const cadastrarClientes = (nome, cpf) => {
         body: Json
     })
         .then(resp => {
-            return resp.body;
+            return resp.body
         })
 }
 
